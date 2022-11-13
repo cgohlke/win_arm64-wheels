@@ -263,7 +263,7 @@ The wheels include the following statically or dynamically linked libraries:
 - [freetds](https://www.freetds.org/files/stable/freetds-1.3.13.tar.gz)-1.3.13
 - [freetype](https://download.savannah.gnu.org/releases/freetype/freetype-2.12.1.tar.gz)-2.12.1
 - [freexl](https://www.gaia-gis.it/gaia-sins/freexl-1.0.6.tar.gz)-1.0.6
-- [gdal](https://github.com/OSGeo/gdal)-1.3.0
+- [gdal](https://github.com/OSGeo/gdal)-3.5.3
 - [geos](https://download.osgeo.org/geos/geos-3.11.0.tar.bz2)-3.11.0
 - [giflib](https://sourceforge.net/projects/giflib/files/giflib-5.2.1.tar.gz)-5.2.1
 - [gle](https://sourceforge.net/projects/gle/files/gle/gle-3.1.0/gle-3.1.0.tar.gz)-3.1.0
