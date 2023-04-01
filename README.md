@@ -16,6 +16,12 @@ Refer to the documentation of the individual [packages](#wheels) and
 The wheels can be downloaded from the
 [Releases](https://github.com/cgohlke/win_arm64.whl/releases) page.
 
+## Release 2023.4.1
+
+### Highlights
+
+- Numpy 1.24 and scipy 1.10
+- Fixed Jupyter kernel connection issues
 ## Release 2022.12.22
 
 ### Highlights
@@ -26,7 +32,10 @@ The wheels can be downloaded from the
 ### Wheels
 
 Binary wheels for the following packages are included in the
-[release](https://github.com/cgohlke/win_arm64.whl/releases):
+[release](https://github.com/cgohlke/win_arm64.whl/releases/tag/v2022.12.22):
+
+<details>
+  <summary>Details</summary>
 
 - [apsw](https://pypi.org/project/apsw/) 3.40.0.0
 - [astropy](https://pypi.org/project/astropy/) 5.2
@@ -93,9 +102,14 @@ Binary wheels for the following packages are included in the
 - [yarl](https://pypi.org/project/yarl/) 1.8.2
 - [yt](https://pypi.org/project/yt/) 4.1.3
 
+</details>
+
 ### Libraries
 
 The wheels include the following statically or dynamically linked libraries:
+
+<details>
+  <summary>Details</summary>
 
 - [BerkeleyDB](https://github.com/berkeleydb/libdb/releases/download/v5.3.28/db-5.3.28.tar.gz) 5.3.28
 - [boost](https://boostorg.jfrog.io/artifactory/main/release/1.81.0/source/boost_1_81_0.zip) 1.81.0
@@ -202,9 +216,14 @@ The wheels include the following statically or dynamically linked libraries:
 - [zlib-ng](https://github.com/zlib-ng/zlib-ng) 2.0.6
 - [zlib](https://github.com/madler/zlib) 1.2.13
 - [zopfli](https://github.com/google/zopfli) 1.0.3
-- [zstd](https://github.com/facebook/zstd) v1.5.2
+- [zstd](https://github.com/facebook/zstd) 1.5.2
+
+</details>
 
 ### Build system
+
+<details>
+  <summary>Details</summary>
 
 - [Windows Dev Kit](https://learn.microsoft.com/en-us/windows/arm/dev-kit/) 2023
 - [Visual Studio](https://visualstudio.microsoft.com/vs/community/) 2022 Community 17.4
@@ -219,6 +238,8 @@ The wheels include the following statically or dynamically linked libraries:
 - [CMake](https://cmake.org/download/) 3.24.3
 - [DirectX SDK](https://www.microsoft.com/en-us/download/details.aspx?id=6812) 9.0c
 
+</details>
+
 ## Release 2022.11.22
 
 ### Highlights
@@ -231,7 +252,10 @@ The wheels include the following statically or dynamically linked libraries:
 ### Wheels
 
 Binary wheels for the following packages are included in the
-[release](https://github.com/cgohlke/experimental-cp311-win_arm64.whl/releases):
+[release](https://github.com/cgohlke/win_arm64.whl/releases/tag/v2022.11.22):
+
+<details>
+  <summary>Details</summary>
 
 - [biopython](https://pypi.org/project/biopython/) 1.80
 - [BTrees](https://pypi.org/project/BTrees/) 4.11.3
@@ -270,9 +294,14 @@ Binary wheels for the following packages are included in the
 - [zodbpickle](https://pypi.org/project/zodbpickle/) 2.6
 - [zope.interface](https://pypi.org/project/zope.interface/) 5.5.2
 
+</details>
+
 ### Libraries
 
 The wheels include the following statically or dynamically linked libraries:
+
+<details>
+  <summary>Details</summary>
 
 - [BerkeleyDB](https://github.com/berkeleydb/libdb/releases/download/v5.3.28/db-5.3.28.tar.gz) 5.3.28
 - [boost](https://boostorg.jfrog.io/artifactory/main/release/1.80.0/source/boost_1_80_0.zip) 1.80.0
@@ -371,9 +400,14 @@ The wheels include the following statically or dynamically linked libraries:
 - [zlib-ng](https://github.com/zlib-ng/zlib-ng) 2.0.6
 - [zlib](https://github.com/madler/zlib) 1.2.13
 - [zopfli](https://github.com/google/zopfli) 1.0.3
-- [zstd](https://github.com/facebook/zstd) v1.5.2
+- [zstd](https://github.com/facebook/zstd) 1.5.2
+
+</details>
 
 ### Build system
+
+<details>
+  <summary>Details</summary>
 
 - [Windows Dev Kit](https://learn.microsoft.com/en-us/windows/arm/dev-kit/) 2023
 - [Visual Studio](https://visualstudio.microsoft.com/vs/community/) 2022 Community 17.4
@@ -387,6 +421,8 @@ The wheels include the following statically or dynamically linked libraries:
 - [Git](https://gitforwindows.org/) 2.38.1
 - [CMake](https://cmake.org/download/) 3.24.3
 - [DirectX SDK](https://www.microsoft.com/en-us/download/details.aspx?id=6812) 9.0c
+
+</details>
 
 ## Release 2022.11.12
 
@@ -412,7 +448,10 @@ The wheels include the following statically or dynamically linked libraries:
 ### Wheels
 
 Binary wheels for the following packages are included in the
-[release](https://github.com/cgohlke/experimental-cp311-win_arm64.whl/releases):
+[release](https://github.com/cgohlke/win_arm64.whl/releases/tag/v2022.11.12):
+
+<details>
+  <summary>Details</summary>
 
 - [aggdraw](https://pypi.org/project/aggdraw/) 1.3.15
 - [ahds](https://pypi.org/project/ahds/) 0.2.4
@@ -601,7 +640,7 @@ Binary wheels for the following packages are included in the
 - [VideoCapture](https://videocapture.sourceforge.net/) 0.9.5
 - [vidsrc](https://pypi.org/project/vidsrc/) 2022.9.28
 - [vispy](https://pypi.org/project/vispy/) 0.12.0
-- [win_arm64_runtime_dlls](https://github.com/cgohlke/experimental-cp311-win_arm64.whl) 2022.11.12+experimental
+- [win_arm64_runtime_dlls](https://github.com/cgohlke/win_arm64.whl) 2022.11.12
 - [wordcloud](https://pypi.org/project/wordcloud/) 1.8.2.2
 - [wrapt](https://pypi.org/project/wrapt/) 1.14.1
 - [xxhash](https://pypi.org/project/xxhash/) 3.1.0
@@ -613,9 +652,14 @@ Binary wheels for the following packages are included in the
 - [zopflipy](https://pypi.org/project/zopflipy/) 1.8
 - [zstd](https://pypi.org/project/zstd/) 1.5.2.6
 
+</details>
+
 ### Libraries
 
 The wheels include the following statically or dynamically linked libraries:
+
+<details>
+  <summary>Details</summary>
 
 - [berkeleydb](https://github.com/berkeleydb/libdb/releases/download/v5.3.28/db-5.3.28.tar.gz) 5.3.28
 - [boost](https://boostorg.jfrog.io/artifactory/main/release/1.80.0/source/boost_1_80_0.zip) 1.80.0
@@ -699,9 +743,14 @@ The wheels include the following statically or dynamically linked libraries:
 - [zlib-ng](https://github.com/zlib-ng/zlib-ng) 2.0.6
 - [zlib](https://github.com/madler/zlib) 1.2.13
 - [zopfli](https://github.com/google/zopfli) 1.0.3
-- [zstd](https://github.com/facebook/zstd) v1.5.2
+- [zstd](https://github.com/facebook/zstd) 1.5.2
+
+</details>
 
 ### Build system
+
+<details>
+  <summary>Details</summary>
 
 - [Windows Dev Kit](https://learn.microsoft.com/en-us/windows/arm/dev-kit/) 2023
 - [Visual Studio](https://visualstudio.microsoft.com/vs/community/) 2022 Community 17.4
@@ -715,3 +764,5 @@ The wheels include the following statically or dynamically linked libraries:
 - [Git](https://gitforwindows.org/) 2.38.1
 - [CMake](https://cmake.org/download/) 3.24.3
 - [DirectX SDK](https://www.microsoft.com/en-us/download/details.aspx?id=6812) 9.0c
+
+</details>
