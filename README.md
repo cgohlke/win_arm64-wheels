@@ -16,6 +16,251 @@ Refer to the documentation of the individual [packages](#wheels) and
 The wheels can be downloaded from the
 [Releases](https://github.com/cgohlke/win_arm64.whl/releases) page.
 
+## Release 2023.5.5
+
+### Highlights
+
+- Numba 0.57 and llvmlite 0.40
+- OpenImageIO 2.4
+
+### Wheels
+
+Binary wheels for the following packages are included in the
+[release](https://github.com/cgohlke/win_arm64.whl/releases/tag/v2023.5.5):
+
+- [aicspylibczi](https://pypi.org/project/aicspylibczi/) 3.1.2
+- [atom](https://pypi.org/project/atom/) 0.10.0
+- [basemap](https://pypi.org/project/basemap/) 1.3.7
+- [blosc2](https://pypi.org/project/blosc2/) 2.2.0
+- [cairocffi](https://pypi.org/project/cairocffi/) 1.5.1
+- [Cartopy](https://pypi.org/project/Cartopy/) 0.21.1
+- [cf_units](https://pypi.org/project/cf_units/) 3.2.0
+- [chebyfit](https://pypi.org/project/chebyfit/) 2023.4.22
+- [coverage](https://pypi.org/project/coverage/) 7.2.5
+- [Cython](https://pypi.org/project/Cython/) 0.29.34
+- [debugpy](https://pypi.org/project/debugpy/) 1.6.7
+- [dulwich](https://pypi.org/project/dulwich/) 0.21.5
+- [enaml](https://pypi.org/project/enaml/) 0.16.1
+- [fabio](https://pypi.org/project/fabio/) 2023.4.1
+- [Fiona](https://pypi.org/project/Fiona/) 1.9.3
+- [fisx](https://pypi.org/project/fisx/) 1.3.0
+- [fpzip](https://pypi.org/project/fpzip/) 1.2.1
+- [freetype_py](https://pypi.org/project/freetype_py/) 2.4.0
+- [GDAL](https://pypi.org/project/GDAL/) 3.6.4
+- [Glymur](https://pypi.org/project/Glymur/) 0.12.5
+- [jellyfish](https://pypi.org/project/jellyfish/) 0.11.2
+- [lfdfiles](https://pypi.org/project/lfdfiles/) 2023.4.20
+- [llvmlite](https://pypi.org/project/llvmlite/) 0.40.0
+- [lmdb](https://pypi.org/project/lmdb/) 1.4.1
+- [maturin](https://pypi.org/project/maturin/) 0.14.17
+- [mercurial](https://pypi.org/project/mercurial/) 6.4.3
+- [netCDF4](https://pypi.org/project/netCDF4/) 1.6.3
+- [numba](https://pypi.org/project/numba/) 0.57.0
+- [numpy](https://pypi.org/project/numpy/) 1.24.3
+- [OpenImageIO](https://github.com/OpenImageIO/oiio) 2.4.11.0
+- [orjson](https://pypi.org/project/orjson/) 3.8.11
+- [pandas](https://pypi.org/project/pandas/) 2.0.1
+- [PartSegCore_compiled_backend](https://pypi.org/project/PartSegCore_compiled_backend/) 0.15.1
+- [psf](https://pypi.org/project/psf/) 2023.4.26
+- [psutil](https://pypi.org/project/psutil/) 5.9.5
+- [psycopg2](https://pypi.org/project/psycopg2/) 2.9.6
+- [pygame](https://pypi.org/project/pygame/) 2.4.0
+- [pygeos](https://pypi.org/project/pygeos/) 0.14.0
+- [pygit2](https://pypi.org/project/pygit2/) 1.12.0
+- [PyICU](https://pypi.org/project/PyICU/) 2.11
+- [pylibCZIrw](https://pypi.org/project/pylibCZIrw/) 3.4.0
+- [pymol](https://github.com/schrodinger/pymol-open-source) 2.6.0a0
+- [pyodbc](https://pypi.org/project/pyodbc/) 4.0.39
+- [pyproj](https://pypi.org/project/pyproj/) 3.5.0
+- [pytensor](https://pypi.org/project/pytensor/) 2.11.0
+- [PyTurboJPEG](https://pypi.org/project/PyTurboJPEG/) 1.7.1
+- [rapidfuzz](https://pypi.org/project/rapidfuzz/) 2.15.1
+- [rasterio](https://pypi.org/project/rasterio/) 1.3.6
+- [recordclass](https://pypi.org/project/recordclass/) 0.18.4
+- [regex](https://pypi.org/project/regex/) 2023.5.5
+- [reportlab](https://pypi.org/project/reportlab/) 3.6.13
+- [Rtree](https://pypi.org/project/Rtree/) 1.0.1
+- [Shapely](https://pypi.org/project/Shapely/) 1.8.5.post1
+- [shapely](https://pypi.org/project/shapely/) 2.0.1
+- [simplejson](https://pypi.org/project/simplejson/) 3.19.1
+- [spacy](https://pypi.org/project/spacy/) 3.5.2
+- [SQLAlchemy](https://pypi.org/project/SQLAlchemy/) 1.4.48
+- [statsmodels](https://pypi.org/project/statsmodels/) 0.14.0
+- [TA_Lib](https://pypi.org/project/TA_Lib/) 0.4.26
+- [thinc](https://pypi.org/project/thinc/) 8.1.10
+- [tokenizers](https://pypi.org/project/tokenizers/) 0.13.3
+- [tornado](https://pypi.org/project/tornado/) 6.3.1
+- [wordcloud](https://pypi.org/project/wordcloud/) 1.9.1.1
+- [yarl](https://pypi.org/project/yarl/) 1.9.2
+- [zstd](https://pypi.org/project/zstd/) 1.5.5.1
+
+### Libraries
+
+The wheels include the following statically or dynamically linked libraries:
+
+<details>
+  <summary>Details</summary>
+
+- [aom](https://aomedia.googlesource.com/aom) 3.6.0
+- [arrow](https://github.com/apache/arrow) 1.5.0
+- [BerkeleyDB](https://github.com/berkeleydb/libdb/releases/download/v5.3.28/db-5.3.28.tar.gz) 5.3.28
+- [boost](https://boostorg.jfrog.io/artifactory/main/release/1.81.0/source/boost_1_81_0.zip) 1.81.0
+- [brotli](https://github.com/google/brotli) 1.0.9
+- [brunsli](https://github.com/google/brunsli) 0.1
+- [bzip2](https://sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz) 1.0.8
+- [c-ares](https://c-ares.org/download/c-ares-1.18.1.tar.gz) 1.18.1
+- [c-blosc2](https://github.com/Blosc/c-blosc2) 2.8.0
+- [c-blosc](https://github.com/Blosc/c-blosc) 1.21.3
+- [cairo](https://www.cairographics.org/releases/cairo-1.16.0.tar.xz) 1.16.0+lgpl
+- [cfitsio](https://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/cfitsio-3.49.tar.gz) 3.49
+- [charls](https://github.com/team-charls/charls) 2.4.1
+- [curl](https://curl.se/download/curl-7.88.1.tar.gz) 7.88.1
+- [dav1d](https://github.com/videolan/dav1d) 1.2.0
+- [directx-strmbase](https://www.microsoft.com/en-us/download/details.aspx?id=6812) 9.0c
+- [expat](https://github.com/libexpat/libexpat/releases/download/R_2_4_9/expat-2.4.9.tar.gz) 2.4.9
+- [flac](https://gitlab.xiph.org/xiph/flac.git) 1.4.2
+- [flann](https://github.com/flann-lib/flann) 1.9.2
+- [fltk](https://www.fltk.org/pub/fltk/1.3.8/fltk-1.3.8-source.tar.gz) 1.3.8
+- [fmtlib](https://github.com/fmtlib/fmt) 9.1.0
+- [freeglut](https://github.com/FreeGLUTProject/freeglut) 3.4.0
+- [freetds](https://www.freetds.org/files/stable/freetds-1.3.17.tar.gz) 1.3.17+lgpl
+- [freetype](https://download.savannah.gnu.org/releases/freetype/freetype-2.13.0.tar.gz) 2.13.0
+- [freexl](https://www.gaia-gis.it/gaia-sins/freexl-1.0.6.tar.gz) 1.0.6
+- [fribidi](https://github.com/fribidi/fribidi) 1.0.12+lgpl
+- [gdal](https://github.com/OSGeo/gdal) 3.6.4
+- [geos](https://download.osgeo.org/geos/geos-3.11.2.tar.bz2) 3.11.2+lgpl
+- [giflib](https://sourceforge.net/projects/giflib/files/giflib-5.2.1.tar.gz) 5.2.1
+- [gle](https://sourceforge.net/projects/gle/files/gle/gle-3.1.0/gle-3.1.0.tar.gz) 3.1.0
+- [glew](https://github.com/nigels-com/glew/releases/download/glew-2.2.0/glew-2.2.0.tgz) 2.2.0
+- [glfw](https://github.com/glfw/glfw) 3.3.8
+- [harfbuzz](https://github.com/harfbuzz/harfbuzz) 7.2.0
+- [hdf4](https://github.com/HDFGroup/hdf4) 4.2.16
+- [hdf5](https://support.hdfgroup.org/ftp/HDF5/releases/hdf5-1.10/hdf5-1.10.10/src/hdf5-1.10.10.tar.gz) 1.10.10
+- [icu4c](https://github.com/unicode-org/icu/releases/download/release-73-1/icu4c-73_1-src.zip) 73.1
+- [imath](https://github.com/AcademySoftwareFoundation/Imath) 3.1.7
+- [jasper](https://github.com/jasper-software/jasper) 4.0.0
+- [json-c](https://github.com/json-c/json-c) 0.16
+- [jxrlib](https://github.com/cgohlke/jxrlib.git) 1.2
+- [krb5](http://web.mit.edu/kerberos/dist/krb5/1.20/krb5-1.20.1.tar.gz) 1.20.1
+- [lame](https://sourceforge.net/projects/lame/files/lame/3.100/lame-3.100.tar.gz) 3.100+lgpl
+- [lerc](https://github.com/Esri/lerc) 4.0.0
+- [libaec](https://gitlab.dkrz.de/k202009/libaec) 1.0.6
+- [libavif](https://github.com/AOMediaCodec/libavif) 0.11.1
+- [libde265](https://github.com/strukturag/libde265) 1.0.11+lgpl
+- [libdeflate](https://github.com/ebiggers/libdeflate) 1.18
+- [libevent](https://github.com/libevent/libevent) 2.1.12
+- [libgeotiff](https://github.com/OSGeo/libgeotiff/releases/download/1.7.1/libgeotiff-1.7.1.tar.gz) 1.7.1
+- [libgit2](https://github.com/libgit2/libgit2) 1.6.4
+- [libgta](https://marlam.de/gta/releases/libgta-1.2.1.tar.xz) 1.2.1+lgpl
+- [libjpeg-turbo](https://github.com/libjpeg-turbo/libjpeg-turbo) 2.1.91
+- [libjxl](https://github.com/libjxl/libjxl) 0.8.1
+- [libkml](https://github.com/libkml/libkml) 1.3.0
+- [liblzf](http://dist.schmorp.de/liblzf/liblzf-3.6.tar.gz) 3.6
+- [libmikmod](https://github.com/sezero/mikmod.git) 3.3.11.1+lgpl
+- [libmodplug](https://github.com/Konstanty/libmodplug) master
+- [libpng](https://github.com/glennrp/libpng) 1.6.39
+- [libraqm](https://github.com/HOST-Oman/libraqm) 0.10.1
+- [LibRaw](https://github.com/LibRaw/LibRaw) 0.21.1+lgpl
+- [libsndfile](https://github.com/libsndfile/libsndfile) 1.2.0+lgpl
+- [libsodium](https://download.libsodium.org/libsodium/releases/libsodium-1.0.18.tar.gz) 1.0.18
+- [libspatialite](https://www.gaia-gis.it/gaia-sins/libspatialite-5.0.1.tar.gz) 5.0.1
+- [libssh2](https://www.libssh2.org/download/libssh2-1.10.0.tar.gz) 1.10.0
+- [libtiff](https://gitlab.com/libtiff/libtiff) 4.5.0
+- [libwebp](https://github.com/webmproject/libwebp) 1.3.0
+- [libxml2](https://gitlab.gnome.org/GNOME/libxml2) 2.10.4
+- [libxslt](https://gitlab.gnome.org/GNOME/libxslt) 1.1.37
+- [libyaml](https://github.com/yaml/libyaml) 0.2.5
+- [libzmq](https://github.com/zeromq/libzmq) master+lgpl
+- [littlecms](https://github.com/mm2/Little-CMS) 2.14
+- [llvm](https://github.com/llvm/llvm-project/releases/download/llvmorg-14.0.6/llvm-14.0.6.src.tar.xz) 14.0.6
+- [lz4](https://github.com/lz4/lz4) 1.9.4
+- [lzfse](https://github.com/lzfse/lzfse/) 1.0
+- [lzham](https://github.com/richgel999/lzham_codec) master
+- [lzma](https://git.tukaani.org/xz.git) 5.4.3
+- [minizip-ng](https://github.com/zlib-ng/minizip-ng) 3.0.10
+- [mozjpeg](https://github.com/mozilla/mozjpeg) 4.1.1
+- [mpg123](https://cytranet.dl.sourceforge.net/project/mpg123/mpg123/1.31.3/mpg123-1.31.3.tar.bz2) 1.31.3+lgpl
+- [msgpack-c](https://github.com/msgpack/msgpack-c) 2.1.4
+- [netcdf-c](https://github.com/Unidata/netcdf-c) 4.9.2
+- [ogg](https://gitlab.xiph.org/xiph/ogg.git) 1.3.5
+- [oneTBB](https://github.com/oneapi-src/oneTBB) 2021.9.0
+- [openblas](https://github.com/xianyi/OpenBLAS/releases/download/v0.3.21/OpenBLAS-0.3.21.zip) 0.3.21
+- [opencl-icd-loader](https://github.com/KhronosGroup/OpenCL-ICD-Loader) 2023.04.17
+- [OpenColorIO](https://github.com/AcademySoftwareFoundation/OpenColorIO) 2.2.1
+- [opencv](https://github.com/opencv/opencv) 4.6.0
+- [openexr](https://github.com/AcademySoftwareFoundation/openexr) 3.1.7
+- [OpenImageIO](https://github.com/OpenImageIO/oiio) v2.4.11.0
+- [openjpeg](https://github.com/uclouvain/openjpeg) 2.5.0
+- [openldap](https://www.openldap.org/software/download/OpenLDAP/openldap-release/openldap-2.4.59.tgz) 2.4.59
+- [openssl](https://github.com/openssl/openssl) 1.1.1t
+- [OpenVDB](https://github.com/AcademySoftwareFoundation/openvdb) 10.0.1
+- [OpenVR](https://github.com/ValveSoftware/openvr) 1.0.17
+- [opus](https://gitlab.xiph.org/xiph/opus.git) 1.4
+- [opusfile](https://github.com/xiph/opusfile) 0.12
+- [pcre2](https://github.com/PCRE2Project/pcre2.git) 10.42
+- [pdcurses](https://github.com/wmcbrine/PDCurses) 3.9
+- [pixman](https://www.cairographics.org/releases/pixman-0.42.2.tar.gz) 0.42.2+lgpl
+- [pkgconf](https://distfiles.dereferenced.org/pkgconf/pkgconf-1.9.3.tar.xz) 1.9.3
+- [portaudio](http://files.portaudio.com/archives/pa_stable_v190700_20210406.tgz) 19.7
+- [portmidi](https://sourceforge.net/projects/portmedia/files/portmidi/v2.0.2/portmidi-v2.0.2.zip) 2.0.2
+- [postgresql](https://ftp.postgresql.org/pub/source/v15.2/postgresql-15.2.tar.gz) 15.2
+- [proj](https://download.osgeo.org/proj/proj-9.1.1.tar.gz) 9.1.1
+- [protobuf](https://github.com/protocolbuffers/protobuf/releases/download/v21.12/protobuf-python-4.21.12.zip) 4.21.12
+- [ptex](https://github.com/wdas/ptex) 2.4.2
+- [pugixml](https://github.com/zeux/pugixml) 1.13
+- [qhull](https://github.com/qhull/qhull) 4.0.0
+- [rav1e](https://github.com/xiph/rav1e) 0.6.4
+- [rdkit](https://github.com/rdkit/rdkit) 22.9.5
+- [re2](https://github.com/google/re2) 2023.03.01
+- [robin-map](https://github.com/Tessil/robin-map) 1.2.1
+- [rtmidi](http://www.music.mcgill.ca/~gary/rtmidi/release/rtmidi-5.0.0.tar.gz) 5.0.0
+- [sdl](https://github.com/libsdl-org/SDL) 2.26.5
+- [sdl_image](https://github.com/libsdl-org/SDL_image) 2.6.3
+- [sdl_mixer](https://github.com/libsdl-org/SDL_mixer) 2.6.3
+- [sdl_ttf](https://github.com/libsdl-org/SDL_ttf) 2.20.2
+- [sheenbidi](https://github.com/Tehreer/SheenBidi) 2.6
+- [snappy](https://github.com/google/snappy) 1.1.10
+- [spatialindex](https://github.com/libspatialindex/libspatialindex/releases/download/1.9.3/spatialindex-src-1.9.3.tar.gz) 1.9.3
+- [sqlite](https://github.com/sqlite/sqlite) 3.41.2
+- [SVT-AV1](https://gitlab.com/AOMediaCodec/SVT-AV1) 1.4.1
+- [SVT-HEVC](https://github.com/OpenVisualCloud/SVT-HEVC) 1.5.1
+- [ta-lib](https://sourceforge.net/projects/ta-lib/files/ta-lib/0.4.0/ta-lib-0.4.0-msvc.zip) 0.4.0
+- [thrift](https://github.com/apache/thrift) 0.18.1
+- [tinyexr](https://github.com/syoyo/tinyexr) 1.0.2
+- [udunits](https://artifacts.unidata.ucar.edu/repository/downloads-udunits/2.2.28/udunits-2.2.28.zip) 2.2.28
+- [uriparser](https://github.com/uriparser/uriparser) 0.9.7
+- [uthash](https://github.com/troydhanson/uthash) 2.3.0
+- [vorbis](https://gitlab.xiph.org/xiph/vorbis.git) 1.3.7
+- [vtk-m](https://gitlab.kitware.com/vtk/vtk-m/-/archive/v1.9.0/vtk-m-v1.9.0.tar.gz) 1.9.0
+- [WavPack](https://github.com/dbry/WavPack) 5.6.0
+- [win-iconv](https://github.com/OgreTransporter/win-iconv) master
+- [winflexbison](https://github.com/lexxmark/winflexbison) 2.5.25
+- [winpty](https://github.com/rprichard/winpty) master
+- [xgboost](https://github.com/dmlc/xgboost) 1.7.5
+- [yaml-cpp](https://github.com/jbeder/yaml-cpp) 0.7.0
+- [zfp](https://github.com/LLNL/zfp) 1.0.0
+- [zlib-ng](https://github.com/zlib-ng/zlib-ng) 2.0.7
+- [zlib](https://github.com/madler/zlib) 1.2.13
+- [zopfli](https://github.com/google/zopfli) 1.0.3
+- [zstd](https://github.com/facebook/zstd) 1.5.5
+
+</details>
+
+### Build system
+
+- [Windows Dev Kit](https://learn.microsoft.com/en-us/windows/arm/dev-kit/) 2023
+- [Visual Studio](https://visualstudio.microsoft.com/vs/community/) 2022 Community 17.5
+- [Python](https://www.python.org/downloads/release/python-3113/) 3.11.3 (ARM64)
+- [LLVM](https://github.com/llvm/llvm-project/releases/tag/llvmorg-15.0.3) 15.0.3-woa64
+- [Flang](https://github.com/kaadam/flang/releases/tag/v0.3) 0.3
+- [Rust](https://www.rust-lang.org/tools/install) 1.68
+- [OpenJDK](https://learn.microsoft.com/en-us/java/openjdk/download) 17.0.7 LTS
+- [Strawberry Perl](https://strawberryperl.com/) 5.32.1.1
+- [MSYS2](https://www.msys2.org/) 20221028
+- [Git](https://gitforwindows.org/) 2.39.2
+- [CMake](https://cmake.org/download/) 3.24.3
+- [DirectX SDK](https://www.microsoft.com/en-us/download/details.aspx?id=6812) 9.0c
+
 ## Release 2023.4.1
 
 ### Highlights
@@ -27,6 +272,9 @@ The wheels can be downloaded from the
 
 Binary wheels for the following packages are included in the
 [release](https://github.com/cgohlke/win_arm64.whl/releases/tag/v2023.4.1):
+
+<details>
+  <summary>Details</summary>
 
 - [aggdraw](https://pypi.org/project/aggdraw/) 1.3.16
 - [aicspylibczi](https://pypi.org/project/aicspylibczi/) 3.1.0
@@ -144,6 +392,8 @@ Binary wheels for the following packages are included in the
 - [yt](https://pypi.org/project/yt/) 4.1.4
 - [zope.interface](https://pypi.org/project/zope.interface/) 6.0
 - [zstd](https://pypi.org/project/zstd/) 1.5.4.1
+
+</details>
 
 ### Libraries
 
@@ -287,6 +537,9 @@ The wheels include the following statically or dynamically linked libraries:
 
 ### Build system
 
+<details>
+  <summary>Details</summary>
+
 - [Windows Dev Kit](https://learn.microsoft.com/en-us/windows/arm/dev-kit/) 2023
 - [Visual Studio](https://visualstudio.microsoft.com/vs/community/) 2022 Community 17.5
 - [Python](https://www.python.org/downloads/release/python-3112/) 3.11.3 (ARM64)
@@ -299,6 +552,8 @@ The wheels include the following statically or dynamically linked libraries:
 - [Git](https://gitforwindows.org/) 2.39.2
 - [CMake](https://cmake.org/download/) 3.24.3
 - [DirectX SDK](https://www.microsoft.com/en-us/download/details.aspx?id=6812) 9.0c
+
+</details>
 
 ## Release 2022.12.22
 
