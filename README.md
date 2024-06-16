@@ -147,7 +147,7 @@ Binary wheels for the following packages for Python 3.12 are included in the
 - [numba](https://pypi.org/project/numba/) 0.60.0
 - [numcodecs](https://pypi.org/project/numcodecs/) 0.12.1
 - [numexpr](https://pypi.org/project/numexpr/) 2.10.0
-- [numpy](https://pypi.org/project/numpy/) 1.26.4
+- [numpy](https://pypi.org/project/numpy/) 2.0.0
 - [numpy_quaternion](https://pypi.org/project/numpy_quaternion/) 2023.0.3
 - [numpy_stl](https://pypi.org/project/numpy_stl/) 3.1.1
 - [opencv_python_headless](https://pypi.org/project/opencv_python_headless/) 4.10.0.82
